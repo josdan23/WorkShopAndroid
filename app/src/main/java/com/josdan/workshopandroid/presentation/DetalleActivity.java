@@ -1,14 +1,9 @@
 package com.josdan.workshopandroid.presentation;
 
-import android.content.res.Resources;
-import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import com.josdan.workshopandroid.R;
 import com.josdan.workshopandroid.data.Api;
 import com.josdan.workshopandroid.dominio.Publicacion;
@@ -29,13 +24,10 @@ public class DetalleActivity extends AppCompatActivity {
         Publicacion publicacion = Api.getInstancia().getPublicacion(idPublicacion);
         if(publicacion != null)
             mostrarInfo(publicacion);
-        else
-            Log.d("aqui", "estoy en null");
 
     }
 
     public void mostrarInfo(Publicacion publicacion){
-        Log.d("mostrar", "entrado");
         TextView tituloDetalleTv = findViewById(R.id.titulo_detalle_tv);
         tituloDetalleTv.setText(publicacion.getTitulo());
 

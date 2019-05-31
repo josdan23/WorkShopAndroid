@@ -14,4 +14,6 @@
 
     <string name="network_titulo">Hubo un error</string>
     <string name="network_mensaje">Hubo un error en la conexion, intente nuevamente</string>
+
+    <string name="button_reintentar">Reintentar</string>
 </resources>

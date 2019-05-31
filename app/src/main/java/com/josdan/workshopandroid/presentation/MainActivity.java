@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity implements IListenerApi {
 
         builder.setMessage(mensaje)
                 .setTitle(titulo)
-                .setPositiveButton("Reintentar", new DialogInterface.OnClickListener() {
+                .setPositiveButton(getString(R.string.button_reintentar), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         api.loadData(getApplicationContext());
