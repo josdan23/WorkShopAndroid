@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorNegro">#000000</color>
+    <color name="colorNegroClaro">#7A000000</color>
+    <color name="color_linea">#F8E0E0E0</color>
+
+    <!--Colores de estados-->
+    <color name="colorDisponible">#B94CAF50</color>
+    <color name="colorNoDisponible">#C9FF9800</color>
+    <color name="colorFinalizado">#C8FF0008</color>
+</resources>

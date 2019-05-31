@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WorkShopAndroid</string>
+
+    <!--Strings para activity principal-->
+    <string name="publicaciones">Publicaciones</string>
+
+    <!-- Strings de activity detalle-->
+    <string name="detalle">Detalle de producto</string>
+    <string name="mas_informacion">Más información</string>
+    <string name="publicado_el">Fecha de publicación</string>
+
+    <string name="error_titulo">Hubo un error</string>
+    <string name="error_mensaje">Hubo un error en la conexion, intente nuevamente</string>
+
+    <string name="network_titulo">Hubo un error</string>
+    <string name="network_mensaje">Hubo un error en la conexion, intente nuevamente</string>
+</resources>

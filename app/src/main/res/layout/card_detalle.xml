@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    cardview:cardCornerRadius="4dp"
+    cardview:contentPaddingTop="20dp"
+    cardview:contentPaddingBottom="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titulo_detalle_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="TITULO PARA UN PRODUCTO"
+            android:textAppearance="@style/titulo_detalle" />
+
+        <TextView
+            android:id="@+id/estado_detalle_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Estado"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/precio_detalle_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="end"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="$120.00"
+            android:textAppearance="@style/precio_detalle_texto" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="16sp"
+            android:background="@drawable/linear_shape"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mas_informacion"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="@style/masinfo_detale_text"
+            android:gravity="center_horizontal"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/icono_publicacion_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_today_black_24dp"
+                android:padding="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:layout_toEndOf="@id/icono_publicacion_iv"
+                android:layout_centerVertical="true">
+
+                <TextView
+                    android:id="@+id/titulo_publicacion_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Publicado el"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/colorNegro"/>
+
+                <TextView
+                    android:id="@+id/fecha_publicacion_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12/12/2019"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/icono_usuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                android:padding="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:layout_toEndOf="@id/icono_usuario"
+                android:layout_centerVertical="true">
+
+                <TextView
+                    android:id="@+id/nombre_usuario_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yapura, José Daniel"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/colorNegro"/>
+                <TextView
+                    android:id="@+id/dni_usuario_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="35.053.344" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
