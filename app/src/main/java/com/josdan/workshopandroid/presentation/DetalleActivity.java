@@ -11,8 +11,6 @@ import android.widget.Toast;
 
 import com.josdan.workshopandroid.R;
 import com.josdan.workshopandroid.data.Api;
-import com.josdan.workshopandroid.data.IApi;
-import com.josdan.workshopandroid.data.IListenerApi;
 import com.josdan.workshopandroid.dominio.Publicacion;
 import com.squareup.picasso.Picasso;
 
